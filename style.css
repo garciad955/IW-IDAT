@@ -114,6 +114,20 @@ body {
   letter-spacing: -.05rem;
 }
 
+iframe{
+  height: 400px;
+  width: 85vw;
+  margin: 25px;
+  border: 3px solid #5a5a5a;
+}
+
+.pdf-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* rtl:end:remove */
 
 /* RESPONSIVE CSS
@@ -130,10 +144,23 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+
+  iframe{
+    width: 40vw;
+  }
+  
+  .pdf-section{
+    flex-direction: row;
+  }
+  
 }
 
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
   }
+
+  
+  
 }
+
